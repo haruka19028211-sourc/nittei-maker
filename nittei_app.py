@@ -2,9 +2,9 @@ import streamlit as st
 import datetime
 
 # ===== ページの基本設定 =====
-st.set_page_config(page_title="日程調整メーカー", page_icon="📅")
+st.set_page_config(page_title="日程候補の文章メーカー", page_icon="📅")
 
-st.title("📅 日程調整メーカー")
+st.title("📅 日程候補の文章メーカー")
 st.write("候補の日付と時間を選ぶと、コピーできる定型文を作ります。")
 
 # ===== セッション（選んだ候補を覚えておく箱）=====
